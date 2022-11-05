@@ -28,6 +28,7 @@ class TitlePriorityService {
 
     }
 
+    // Assign a random priority
     float getRandomPriority() {
         Random r = new Random();
         int low = 10;
